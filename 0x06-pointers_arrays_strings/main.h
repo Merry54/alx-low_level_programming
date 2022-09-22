@@ -1,8 +1,6 @@
-#include"main.h"
-#include<stdio.h>                                                                                                                  
-/**                                                                  
- * void prototype()                                                              * int prototypes()                                                              * char protoypes                                                            
- */                                                                                                                                     
+#include "main.h"
+#include <stdio.h>
+
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
@@ -16,4 +14,3 @@ char *rot13(char *);
 void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
-#endif /*MAIN_H/
