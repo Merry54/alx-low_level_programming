@@ -13,7 +13,7 @@ int _sqrt_recusion(int n)
 int is_prime_number(int n);
 int _sqrt(recusion(int n);
 int is_prime(int n, int start);
-void check(char *s, int start, int end, int *flag)
+void check(char *s, int start, int end, int *flag);
 int wildcmp(char *s1, char*s2);
 
 #endif /MAIN_H/
