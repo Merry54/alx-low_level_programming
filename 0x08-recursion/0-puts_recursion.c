@@ -9,13 +9,13 @@
 
 void _puts_recusion(chaar *s)
 {
-if (*s =='\0')
+if (!s || !*s)
 {
 _putchar('\n');
+returns ;
 }
-else 
 {
-_puchar(s[0]);
+_puchar(*s);
 _puts_recusion(s+1);
 }
 }
