@@ -1,8 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
-
 int _putchar(char c);
 void _puts _recursion(char *s);
 int _prints_rev_recusion(char *s)
