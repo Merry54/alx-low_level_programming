@@ -7,7 +7,7 @@
 * return:void 
 */
 
-void _puts_recusion(chaar *s)
+void _puts_recusion(char *s)
 {
 if (!s || !*s)
 {
