@@ -16,6 +16,6 @@ _putchar('\n');
 else
 {
 _puchar(s[0]);
-_puts_recusion(s+1);
+_puts_recusion(s + 1);
 }
 }
