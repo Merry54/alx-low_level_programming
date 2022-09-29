@@ -1,10 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 #include <stdio.h>
 
 int _putchar(char c);
 void _puts _recursion(char *s);
-int _prints_rev_recusion(char *s)
+void _print_rev_recusion(char *s);
 int _strlen_recusion(char *s);
 int factorial (int n);
 int _pow_recusion(int x, int y);
@@ -16,4 +17,3 @@ void check(char *s, int start, int end, int *flag);
 int wildcmp(char *s1, char*s2);
 
 #endif /MAIN_H/
-
