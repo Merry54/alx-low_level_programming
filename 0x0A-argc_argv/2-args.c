@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- * this program prints all arguments, including the first line and only print one argumentper line,ending with a new line
- * main:
- *
+ * main- prints the number of arguments passed into the program
+ *@argc:int 
+ *@argv:list 
  * return:0
  */
 
