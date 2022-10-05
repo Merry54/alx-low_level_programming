@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 
 /**
  * len - returns length of str
@@ -45,8 +45,7 @@ else
 i++;
 }
 }
-return
-(words);
+return(words);
 }
 
 
