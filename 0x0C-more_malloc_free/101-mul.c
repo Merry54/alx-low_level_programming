@@ -60,6 +60,7 @@ for (; divisor >= 1; n %= divisor, divisor /= 10)
 resp = n / divisor;
 _putchar('0' + resp);
 }
+}
 
 /**
  * main - print the result of the multiplication, followed by a new line
