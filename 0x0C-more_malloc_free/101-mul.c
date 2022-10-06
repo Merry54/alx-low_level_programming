@@ -29,13 +29,17 @@ int sign = 1;
 unsigned long int resp = 0, firstNum, i;
 for (firstNum = 0; !(s[firstNum] >= 48 && s[firstNum] <= 57); firstNum++)
 {
-if (s[firstNum] == '-')								{												sign *= -1;											}
+if (s[firstNum] == '-')								
+{											sign *= -1;									
+}
 }
 
 for (i = firstNum; s[i] >= 48 && s[i] <= 57; i++)
 {
 resp *= 10;
-										resp += (s[i] - 48);								}
+
+resp += (s[i] - 48);								
+}
 return (sign * resp);
 }
 
@@ -55,8 +59,6 @@ for (; divisor >= 1; n %= divisor, divisor /= 10)
 {
 resp = n / divisor;
 _putchar('0' + resp);
-}
-
 }
 
 /**
