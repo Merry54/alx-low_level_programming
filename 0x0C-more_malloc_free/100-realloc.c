@@ -1,8 +1,5 @@
 #include "main.h"
-
 #include <stdlib.h>
-
-
 
 /**
  * _realloc - reallocates a memory block using malloc and free.
@@ -25,8 +22,7 @@ return (p);
 										}
 else if (new_size == 0)
 {
-										free(ptr);
-										return (NULL);
+										free(ptr);									return (NULL);
 }
 										
 else if (new_size == old_size)							return (ptr);
