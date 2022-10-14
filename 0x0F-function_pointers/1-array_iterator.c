@@ -8,24 +8,14 @@
  * Return: first index for which cmp doesn't return 0, or -1
  */
 
-int int_index(int *array, int size, int (*cmp)(int))
+void array_iterator(int *array, int size, int (*cmp)(int))
 
 {
-int i, r;
+size_t i;
 
-if (size > 0 && array && cmp)
+if (array != NULL && action != NULL)
 {
 for (i = 0; i < size; i++)
-{
-										
-r = cmp(array[i]);
-										
-if (r)											
-break;
+action(array[i]);
 }
-if (i < size)
-										
-return (i);
-}
-return (-1);
 }
