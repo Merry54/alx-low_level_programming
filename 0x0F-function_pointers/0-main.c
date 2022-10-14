@@ -25,7 +25,7 @@ printf("Hello, my uppercase name is ");
 i = 0;
 while (name[i])
 {
-if (name[i] >= 'a' && nam[i] <= 'z')
+if (name[i] >= 'a' && name[i] <= 'z')
 {									            putchar(name[i] + 'A' - 'a');
 }
 else
