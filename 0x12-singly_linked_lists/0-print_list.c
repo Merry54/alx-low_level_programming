@@ -17,6 +17,7 @@ while (current != NULL)
 printf("[%d] %s\n", current->len,
 current->str != NULL ? current->str : "(nil)");
 current = current->next;
-nbr_nodes++;									}
+nbr_nodes++;							
+}
 return (nbr_nodes);
 }
