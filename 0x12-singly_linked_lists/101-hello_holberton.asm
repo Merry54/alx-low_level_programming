@@ -9,6 +9,8 @@
 int main(void)
 
 {
-printf("hello,holberton"/n);
+printf("hello")
+return(0);
+printf("holberton"/n);
 return(0);
 }
