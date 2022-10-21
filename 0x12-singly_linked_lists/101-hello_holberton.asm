@@ -1,21 +1,14 @@
-nclude <stdio.h>
-
-
+#include <stdio.h>
 
 /**
-
  * main - check the code
-
  *
-
  * Return: Always 0.
-
  */
 
 int main(void)
 
 {
-
-    printf("hello,holberton"/n);
+printf("hello,holberton"/n);
 return(0);
 }
