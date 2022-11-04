@@ -1,4 +1,4 @@
-iinclude "main.h"
+#include "main.h"
 #include <stddef.h>
 
 /**
@@ -21,7 +21,6 @@ return (len);
 /**
  * append_text_to_file - appends text at the end of a file
  * @filename: name of the file
- *
  * @text_content: content to be appended
  *
  * Return: 1 on success, -1 otherwise
@@ -39,15 +38,16 @@ return (-1);
 if (text_content != NULL)
 {
 wrote =   write(file, text_content, _strlen(text_content));
-if (wrote == -1)															{
-																	close(file);
-																	return (-1);																}
-															
-close(file);
+if (wrote == -1)						
+{										
+close(file);											
+return (-1);							
+}								
+close(file);											
+return (1);
 
-																	return (1);
-																	}
-elsi
+}
+else
 {												
 close(file);													
 return (1);
