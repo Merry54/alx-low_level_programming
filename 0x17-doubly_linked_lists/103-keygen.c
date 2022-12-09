@@ -56,9 +56,9 @@ return (((unsigned int)ch ^ 239) & 63);
 
  /**
  *f6 - generates a random char
+ *
  *@usrn: username
  * Return: a random char
- *
  */
 int f6(char *usrn)
 {
