@@ -1,1 +1,1 @@
-this project is mandatorty
+this project is mandatory
