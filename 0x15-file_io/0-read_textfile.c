@@ -5,20 +5,17 @@
 
 /**
  * read_textfile - reads a text file and prints it to standard out
- *
  * @filename: name of file
  * @letters: how many letters to read and print
  * Return: 0 if error, otherwise number letters printed
  */
 ssize_t read_textfile(const char *filename, size_t letters)
-
 {
        int fi, re, wr;
        char *buf;
 
        if (!filename || letters == 0)
-   
-	      return (0);
+	        return (0);
        fi = open(filename, O_RDONLY);
 
        if (fi < 0)
@@ -26,11 +23,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
        buf = malloc(sizeof(char) * letters);
        if (buf == NULL)
 	{
-
 	close(fi);
-
 	return (0);
-
 	}
 	re = read(fi, buf, letters);
 	close(fi);
